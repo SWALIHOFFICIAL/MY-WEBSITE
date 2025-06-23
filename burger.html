@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BURGER HUT</title>
+  <style>
+            
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #181616;
+      color: #f1f1f1;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #1f1f1f;
+      border-bottom: 2px solid #ffb347;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #ffb347;
+      margin-bottom: 0.5rem;
+    }
+
+    .tagline {
+      font-style: italic;
+      font-size: 1.2rem;
+      color: #fff8e1;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    .burger {
+      background-color: #1c1c1c;
+      border-radius: 45px;
+      padding: 1rem;
+      width: 250px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .burger:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px #ffb347;
+    }
+
+    .burger img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+
+    .burger h3 {
+      margin-top: 0;
+      color: #ffcc70;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-top: 1px solid #444;
+    }
+
+    footer a {
+      color: #ffb347;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> BURGER HUT</h1>
+    <p class="tagline">Taste the burger — It's your choice!</p>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <div class="burger">
+        <img src="image.1.jpeg" alt="Cheese Burger">
+        <h3>Cheese Burger</h3>
+        <br>
+        <br>
+      </div>
+      <div class="burger">
+        <img src="image.2.jpeg" alt="Chicken Burger">
+        <h3>Chicken Burger</h3>
+      </div>
+      <div class="burger">
+        <img src="image.3.jpeg" alt="Veggie Burger">
+        <h3>Veggie Burger</h3>
+      </div>
+      <div class="burger">
+        <img src="image.4.jpeg" alt="Thurkey Burger">
+        <h3>Thurkey Burger</h3>
+      </div>
+      <div class="burger">
+        <img src="image.5.jpeg" alt="Chinees Burger">
+        <h3>Chinees Burger</h3>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>📞 Contact us: <a href="tel:8891250796">8891250796</a></p>
+  </footer>
+</body>
+</html>
